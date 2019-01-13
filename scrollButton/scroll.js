@@ -25,9 +25,6 @@ class ScrollButton extends React.Component{
         componentDidMount() {
           window.addEventListener('scroll', this.showScroll);
         }
-        componentWillUpdate(){
-          window.addEventListener('click', this.onButtonClick)
-        }
       
         componentWillUnmount() {
           window.removeEventListener('scroll', this.showScroll);
