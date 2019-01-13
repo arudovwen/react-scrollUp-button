@@ -18,7 +18,7 @@ class ScrollButton extends React.Component{
         constructor(){
           super()
           this.state={
-            pagePx:'',
+            
             id:'none'
           }
         }
